@@ -2,9 +2,13 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
-from math import sqrt
+from math import sqrt, pi
+import pandas as pd
+import seaborn as sns
+from sklearn.metrics import pairwise_distances
 import csv
 import os
+
 
 Strains = []
 Frames = []
